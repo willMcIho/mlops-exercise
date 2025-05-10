@@ -1,6 +1,6 @@
 import json
 import os
-import app
+import app #added App to support testing
 
 
 def test_model_score():
