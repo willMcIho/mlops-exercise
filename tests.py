@@ -2,6 +2,7 @@ import json
 import os
 import app
 
+
 def test_model_score():
     score = app.main()  # Assuming the main function returns the score
     assert isinstance(score, float)
