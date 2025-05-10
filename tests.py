@@ -1,8 +1,8 @@
 import json
 import os
-import app #added App to support testing
+import app
 
-#Updated Model Scores
+
 def test_model_score():
     score = app.main()  # Assuming the main function returns the score
     assert isinstance(score, float)
